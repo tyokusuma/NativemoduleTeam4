@@ -1,7 +1,6 @@
 # NativemoduleTeam4
+## Contributor
 
-Contributor ::
-Prayudi Tirta Bayu
-Syamsul Anwar
-Aristyo Hadikusuma
-
+* Prayudi tirta bayu
+* Aristyo hadikusuma
+* Syamsul Anwar
