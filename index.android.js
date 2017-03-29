@@ -9,10 +9,20 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules,
 } from 'react-native';
 
 export default class NativeModuleTeam4 extends Component {
+
+  componentDidMount() {
+    const { Contacts } = NativeModules;
+    Contacts.requestPermission();
+    const contact = Contacts.getAllContacts()
+    console.log(contact);
+  }
+
+
   render() {
     return (
       <View style={styles.container}>
